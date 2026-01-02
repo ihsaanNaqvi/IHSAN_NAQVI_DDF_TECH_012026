@@ -1,0 +1,8 @@
+expectations:
+  - column: product_id
+    rule: not_null
+  - column: price
+    rule: greater_than
+    value: 0
+  - column: category
+    rule: not_null
